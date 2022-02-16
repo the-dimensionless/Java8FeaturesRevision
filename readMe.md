@@ -33,3 +33,17 @@ boolean test(T t)
 and()
 negate()
 or()
+
+### Function
+
+apply(T t)
+andThen(Function f)
+compose(Function f)
+
+### Unary & binary Operator
+Same as Function. Use when i/p and o/p types are same
+maxBy()
+minBy()
+
+### Supplier
+T get()
