@@ -14,3 +14,22 @@ Uses:
     Only Single Abstract Method
     @FunctionalInterface annotation (Optional)
     ex - Runnable, Comparator
+
+
+
+### Functional Interfaces since Jdk 1.0
+interfaces with exactly one abstract method
+New one => 
+1. Consumer - BiConsumer
+2. Predicate - BiPredicate
+3. Function - BiFunction, Unary, Binary Operator
+4. Supplier
+
+### Consumer & BiConsumer
+void accept(T t)
+
+### Predicate
+boolean test(T t)
+and()
+negate()
+or()
