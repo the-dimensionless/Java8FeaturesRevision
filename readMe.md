@@ -47,3 +47,35 @@ minBy()
 
 ### Supplier
 T get()
+
+
+## Method Reference (Shortcut for lambda) 
+* Simplifies SAMs
+* Used to refer a method in a class
+* ex: ClassName::instance-methodName
+* ClassName::static-methodName
+* Instance::methodName
+
+
+### Streams
+
+* Numeric Streams -> represent primitive values in streams
+Int, Long and Double Stream
+IntStream
+  * range(1, 10) = 9 elements
+  * rangeClosed(1,  10) = 10 elements
+  
+same for LongStream
+use .asDoubleStream for double stream
+
+* Aggregate Fn
+    * Sum, max, min, avg
+    max and min return Optional<E> values
+    avg returns OptionalDouble value
+  
+* Boxing and Unboxing
+    Boxing -> primitive -> Wrapper
+    UnBoxing -> Wrapper -> primitive
+    
+    mapToInt(), mapToObject(), mapToDouble(), mapToLong()
+
