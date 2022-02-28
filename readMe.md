@@ -59,6 +59,8 @@ T get()
 
 ### Streams
 
+of, iterate, generate
+
 * Numeric Streams -> represent primitive values in streams
 Int, Long and Double Stream
 IntStream
@@ -90,3 +92,23 @@ groupingBy()
 (classifier, downstream)
 (classifier, supplier, downstream
 partitioningBy()
+
+### Parallel Streams
+Split source data into multiple parts & combine all solutions after operation on each
+Not to be used when
+1. when time is wasted in boxing/unboxing
+2. when we have mutable variables
+
+
+### Optional
+* Represents a Non Null Value
+* Avoids Null Pointer Exception and Unnecessary Null Checks
+flatMap, map, filter
+
+
+### Interfaces
+* Define contract
+* Before Java 8 only allowed declaring method
+* default keyword to identify a default method
+* default methods can be overridden
+* static methods unlike default ones cannot be overridden
