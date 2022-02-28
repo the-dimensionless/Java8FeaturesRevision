@@ -79,3 +79,14 @@ use .asDoubleStream for double stream
     
     mapToInt(), mapToObject(), mapToDouble(), mapToLong()
 
+### Terminal Operations
+joining()
+counting()
+mapping()
+minBy, maxBy using collect()
+summingInt, averagingInt, same for long, double
+groupingBy()
+(classifier),
+(classifier, downstream)
+(classifier, supplier, downstream
+partitioningBy()
